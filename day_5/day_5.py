@@ -36,5 +36,8 @@ print(ages[-1],"Is the Max",ages[0],"Is the min")
 ages.extend([19,26])
 print(ages)
 ages.sort()
-print("The median is",(ages(5)+ages(6))/2)
+print("The median is",(ages[5]+ages[6])/2)
 
+country_list=['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+first , second, third , *scandic=country_list
+print(scandic)
